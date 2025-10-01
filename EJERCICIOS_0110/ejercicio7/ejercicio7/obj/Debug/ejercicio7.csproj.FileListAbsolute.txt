@@ -1,0 +1,8 @@
+C:\Users\alumno\Desktop\2DAM\DESARROLLO DE INTERFACES\TEMA 2 - INTRODUCCIÓN A C#\ACTIVIDADES\EJERCICIOS3-JJGL\ejercicio7\ejercicio7\bin\Debug\ejercicio7.exe.config
+C:\Users\alumno\Desktop\2DAM\DESARROLLO DE INTERFACES\TEMA 2 - INTRODUCCIÓN A C#\ACTIVIDADES\EJERCICIOS3-JJGL\ejercicio7\ejercicio7\bin\Debug\ejercicio7.exe
+C:\Users\alumno\Desktop\2DAM\DESARROLLO DE INTERFACES\TEMA 2 - INTRODUCCIÓN A C#\ACTIVIDADES\EJERCICIOS3-JJGL\ejercicio7\ejercicio7\bin\Debug\ejercicio7.pdb
+C:\Users\alumno\Desktop\2DAM\DESARROLLO DE INTERFACES\TEMA 2 - INTRODUCCIÓN A C#\ACTIVIDADES\EJERCICIOS3-JJGL\ejercicio7\ejercicio7\obj\Debug\ejercicio7.csproj.AssemblyReference.cache
+C:\Users\alumno\Desktop\2DAM\DESARROLLO DE INTERFACES\TEMA 2 - INTRODUCCIÓN A C#\ACTIVIDADES\EJERCICIOS3-JJGL\ejercicio7\ejercicio7\obj\Debug\ejercicio7.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\2DAM\DESARROLLO DE INTERFACES\TEMA 2 - INTRODUCCIÓN A C#\ACTIVIDADES\EJERCICIOS3-JJGL\ejercicio7\ejercicio7\obj\Debug\ejercicio7.exe
+C:\Users\alumno\Desktop\2DAM\DESARROLLO DE INTERFACES\TEMA 2 - INTRODUCCIÓN A C#\ACTIVIDADES\EJERCICIOS3-JJGL\ejercicio7\ejercicio7\obj\Debug\ejercicio7.pdb
+C:\Users\alumno\Desktop\2DAM\DESARROLLO DE INTERFACES\TEMA 2 - INTRODUCCIÓN A C#\ACTIVIDADES\EJERCICIOS3-JJGL\ejercicio7\ejercicio7\obj\Debug\ejercicio7.exe.config
