@@ -1,0 +1,35 @@
+﻿<Window x:Class="Wpf7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10" >
+
+            <!-- TextBox centrado -->
+            <TextBox Name="TextBoxUsuario"
+                 Width="250"
+                 Height="30"
+                 FontSize="16"
+                 TextAlignment="Center"
+                 Margin="0,0,0,20"/>
+
+            <!-- Botón con padding, icono y texto -->
+            <Button Padding="10"
+                Click="Boton_Click"
+                FontSize="16">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <!-- Icono a la izquierda -->
+                    <Image Source="https://cdn-icons-png.flaticon.com/512/6121/6121171.png" 
+                       Width="20" Height="20" Margin="0,0,10,0"/>
+                    <!-- Texto a la derecha del icono -->
+                    <TextBlock Text="Haz clic!" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+        </StackPanel>
+    </Grid>
+</Window>
