@@ -1,0 +1,42 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Columna Izquierda -->
+        <!-- Con el 'TabIndex' indico el orden que sigue al pulsar el Tab -->
+        <StackPanel Grid.Column="0" Margin="10">
+            <Label Content="Nombre:" />
+            <TextBox Name="txtNombre" Width="150" 
+                     TabIndex="0"
+                     HorizontalAlignment="Left"/>
+
+            <Label Content="Dirección:" Margin="0,10,0,0"/>
+            <TextBox Name="txtDireccion" Width="150" 
+                     TabIndex="2"
+                     HorizontalAlignment="Left"/>
+        </StackPanel>
+
+        <!-- Columna Derecha -->
+        <StackPanel Grid.Column="1" Margin="10">
+            <Label Content="Apellido:" />
+            <TextBox Name="txtApellido" Width="150" 
+                     TabIndex="1"
+                     HorizontalAlignment="Left"/>
+
+            <Label Content="Código Postal:" Margin="0,10,0,0"/>
+            <TextBox Name="txtCodigoPostal" Width="150" 
+                     TabIndex="3"
+                     HorizontalAlignment="Left"/>
+        </StackPanel>
+    </Grid>
+</Window>

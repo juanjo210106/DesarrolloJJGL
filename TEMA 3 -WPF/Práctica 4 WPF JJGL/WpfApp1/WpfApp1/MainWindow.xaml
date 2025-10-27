@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <!-- Si ponemos _ antes del carácter definimos que pulsando Alt+N por ejemplo salta a Nombre -->
+            <Label Content="_Nombre:" Target="{Binding ElementName=txtName}" />
+            <TextBox Name="txtName" Width="150" HorizontalAlignment="Left"/>
+            <Label Content="_Mail:" Target="{Binding ElementName=txtMail}" />
+            <TextBox Name="txtMail" Width="150" HorizontalAlignment="Left"/>
+
+            <!-- Con el ToolTip doy más info al user cuando pone el ratón sobre dicho elemento -->
+            <Button Content="Enviar Datos" ToolTip="Haz clic para envíar los datos..." Margin="0, 30, 0, 0" Width="120" HorizontalAlignment="Left" />
+        </StackPanel>
+    </Grid>
+</Window>
