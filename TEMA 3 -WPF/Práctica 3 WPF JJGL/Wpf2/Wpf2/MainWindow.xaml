@@ -1,0 +1,40 @@
+﻿<Window x:Class="Wpf2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="20">
+            <Label FontWeight="Bold" FontSize="16" Margin="0,0,0,10">
+                ¿Cuál es el jugador más viejo de pádel?
+            </Label>
+
+            <RadioButton Name="rbPaquito" Margin="0,2">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="https://www.bullpadelpy.com/web/image/website/10/social_default_image?unique=5436af3" Width="70" Height="50" Margin="0,0,10,0"/>
+                    <TextBlock Text="Paquito Navarro" VerticalAlignment="Center"/>
+                </StackPanel>
+            </RadioButton>
+            
+            <RadioButton Name="rbLebron" Margin="0,2">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Babolat_logo.svg/2560px-Babolat_logo.svg.png" Width="70" Height="50" Margin="0,0,10,0"/>
+                    <TextBlock Text="Juan Lebrón" VerticalAlignment="Center"/>
+                </StackPanel>
+            </RadioButton>
+            
+            <RadioButton Name="rbGalan" Margin="0,2">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="https://logosenvector.com/logo/img/adidas-1006-5446.png" Width="50" Height="50" Margin="0,0,10,0"/>
+                    <TextBlock Text="Galán" VerticalAlignment="Center"/>
+                </StackPanel>
+            </RadioButton>
+
+                <Button x:Name="btnCorregir" Content="Corregir" Width="100" Margin="0,10,0,0"
+                HorizontalAlignment="Left" Click="btnCorregir_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,8 +1,0 @@
-C:\Users\alumno\Desktop\EJERCICIOS4-JJGL\ejercicio2\ejercicio2\bin\Debug\ejercicio2.exe.config
-C:\Users\alumno\Desktop\EJERCICIOS4-JJGL\ejercicio2\ejercicio2\bin\Debug\ejercicio2.exe
-C:\Users\alumno\Desktop\EJERCICIOS4-JJGL\ejercicio2\ejercicio2\bin\Debug\ejercicio2.pdb
-C:\Users\alumno\Desktop\EJERCICIOS4-JJGL\ejercicio2\ejercicio2\obj\Debug\ejercicio2.csproj.AssemblyReference.cache
-C:\Users\alumno\Desktop\EJERCICIOS4-JJGL\ejercicio2\ejercicio2\obj\Debug\ejercicio2.csproj.CoreCompileInputs.cache
-C:\Users\alumno\Desktop\EJERCICIOS4-JJGL\ejercicio2\ejercicio2\obj\Debug\ejercicio2.exe
-C:\Users\alumno\Desktop\EJERCICIOS4-JJGL\ejercicio2\ejercicio2\obj\Debug\ejercicio2.pdb
-C:\Users\alumno\Desktop\EJERCICIOS4-JJGL\ejercicio2\ejercicio2\obj\Debug\ejercicio2.exe.config

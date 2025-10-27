@@ -1,0 +1,8 @@
+C:\Users\alumno\source\repos\Ejercicios1C#\Ejercicios1C#\bin\Debug\Ejercicios1C#.exe.config
+C:\Users\alumno\source\repos\Ejercicios1C#\Ejercicios1C#\bin\Debug\Ejercicios1C#.exe
+C:\Users\alumno\source\repos\Ejercicios1C#\Ejercicios1C#\bin\Debug\Ejercicios1C#.pdb
+C:\Users\alumno\source\repos\Ejercicios1C#\Ejercicios1C#\obj\Debug\Ejercicios1C#.csproj.AssemblyReference.cache
+C:\Users\alumno\source\repos\Ejercicios1C#\Ejercicios1C#\obj\Debug\Ejercicios1C#.csproj.CoreCompileInputs.cache
+C:\Users\alumno\source\repos\Ejercicios1C#\Ejercicios1C#\obj\Debug\Ejercicios1C#.exe
+C:\Users\alumno\source\repos\Ejercicios1C#\Ejercicios1C#\obj\Debug\Ejercicios1C#.pdb
+C:\Users\alumno\source\repos\Ejercicios1C#\Ejercicios1C#\obj\Debug\Ejercicios1C#.exe.config
