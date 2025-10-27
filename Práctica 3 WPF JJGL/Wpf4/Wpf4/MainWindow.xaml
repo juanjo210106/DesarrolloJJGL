@@ -1,0 +1,24 @@
+﻿<Window x:Class="Wpf4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="20" HorizontalAlignment="Center">
+
+            <!-- Imagen principal -->
+            <Image x:Name="imgPrincipal" Width="200" Height="200"
+               Stretch="Uniform"
+               Source="C:\Users\alumno\Desktop\Práctica 3 WPF JJGL\Wpf4\Wpf4\bullpadel.png" Margin="0,0,0,10"/>
+
+            <!-- Botón para cambiar imagen -->
+            <Button x:Name="btnCambiar" Content="Cambiar imagen"
+                Width="150" Height="35"
+                Click="btnCambiar_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
