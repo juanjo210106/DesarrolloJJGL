@@ -1,0 +1,64 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="15">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Target="{Binding ElementName=txtNombre}">
+            <Label.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/name.png" 
+                           Width="16" Height="16" Margin="0,0,5,0" />
+                    <AccessText Text="_Nombre:" />
+                </StackPanel>
+            </Label.Content>
+        </Label>
+
+        <TextBox x:Name="txtNombre" 
+                 Grid.Row="0" Grid.Column="1" 
+                 Margin="5" VerticalAlignment="Center" />
+
+        <Label Grid.Row="1" Grid.Column="0" Margin="5" Target="{Binding ElementName=txtEmail}">
+            <Label.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/e-mail.png" 
+                           Width="16" Height="16" Margin="0,0,5,0" />
+                    <AccessText Text="_Email:" />
+                </StackPanel>
+            </Label.Content>
+        </Label>
+
+        <TextBox x:Name="txtEmail" 
+                 Grid.Row="1" Grid.Column="1" 
+                 Margin="5" VerticalAlignment="Center" />
+
+        <TextBox x:Name="txtMensaje" Height="190" Grid.Row="2" Grid.Column="0" 
+                 Grid.ColumnSpan="2" 
+                 Margin="5"
+                 TextWrapping="Wrap"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto" />
+
+        <Button Grid.Row="3" Height="29" Margin="0, 20, 0, 0"
+                ToolTip="Haz clic aquí para enviar tus datos"
+                Click="Button_Click">
+            Enviar
+        </Button>
+    </Grid>
+</Window>
