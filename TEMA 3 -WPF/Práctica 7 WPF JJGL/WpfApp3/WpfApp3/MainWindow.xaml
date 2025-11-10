@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Open" CanExecute="OpenCommand_CanExecute" Executed="OpenCommand_Executed"/>
+        <CommandBinding Command="ApplicationCommands.Save" CanExecute="SaveCommand_CanExecute" Executed="SaveCommand_Executed"/>
+    </Window.CommandBindings>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="center" Margin="5">
+
+            <Button Command="ApplicationCommands.Open" Name="btnAbrir" Margin="5" Padding="10,5" ToolTip="Este botón permite abrir un fichero .txt" >Abrir fichero</Button>
+
+            <Button Command="ApplicationCommands.Save" Name="btnGuardar" Margin="5" Padding="10,5" ToolTip="Nos permite guardar en un fichero .txt">Guardar fichero</Button>
+        </StackPanel>
+
+        <TextBox Name="txtContenido" Grid.Row="1" Margin="10" 
+                 TextWrapping="Wrap" 
+                 AcceptsReturn="True" 
+                 FontSize="14"
+                 VerticalScrollBarVisibility="Auto"/>
+    </Grid>
+</Window>
