@@ -5,20 +5,58 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <DockPanel>
-        <TextBox Background="AliceBlue"></TextBox>
+        Title="Editor de Texto" Height="400" Width="700">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.New" 
+                        Executed="NewCommand_Executed" 
+                        CanExecute="NewCommand_CanExecute" />
+    </Window.CommandBindings>
 
+    <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_Archivo">
-                <MenuItem Header="_Nuevo"></MenuItem>
-                <MenuItem Header="_Guardar"></MenuItem>
+                <MenuItem Header="_Nuevo" Command="ApplicationCommands.New">
+                    <MenuItem.Icon>
+                        <Image Source="/nuevo.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+
+
+                <MenuItem Header="_Guardar" Click="Guardar_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/guardar.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>
+
             <MenuItem Header="_Editar">
-                <MenuItem Header="_Cortar"></MenuItem>
-                <MenuItem Header="_Copiar"></MenuItem>
-                <MenuItem Header="_Pegar"></MenuItem>
+                <MenuItem Header="_Cortar" Command="ApplicationCommands.Cut" CommandTarget="{Binding ElementName=txtEditor}">
+                    <MenuItem.Icon>
+                        <Image Source="/cortar.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+
+                <MenuItem Header="_Copiar" Command="ApplicationCommands.Copy" CommandTarget="{Binding ElementName=txtEditor}">
+                    <MenuItem.Icon>
+                        <Image Source="/copiar.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                
+                <MenuItem Header="_Pegar" Command="ApplicationCommands.Paste" CommandTarget="{Binding ElementName=txtEditor}">
+                    <MenuItem.Icon>
+                        <Image Source="/pegar.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>
         </Menu>
+
+        <TextBox Name="txtEditor"
+                 AcceptsReturn="True"
+                 TextWrapping="Wrap"
+                 FontSize="14"
+                 SpellCheck.IsEnabled="True"
+                 Language="es-es"
+                 VerticalScrollBarVisibility="Auto" />
+
     </DockPanel>
 </Window>

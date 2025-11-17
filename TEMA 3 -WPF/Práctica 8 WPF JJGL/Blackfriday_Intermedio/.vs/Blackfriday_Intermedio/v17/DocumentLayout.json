@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\Blackfriday_Intermedio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAD14AD-84EE-4B9C-9A42-7B95FD4A3F63}|Blackfriday_Intermedio\\Blackfriday_Intermedio.csproj|c:\\users\\alumno\\documents\\github\\desarrollojjgl\\tema 3 -wpf\\pr\u00E1ctica 8 wpf jjgl\\blackfriday_intermedio\\blackfriday_intermedio\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AAD14AD-84EE-4B9C-9A42-7B95FD4A3F63}|Blackfriday_Intermedio\\Blackfriday_Intermedio.csproj|solutionrelative:blackfriday_intermedio\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAD14AD-84EE-4B9C-9A42-7B95FD4A3F63}|Blackfriday_Intermedio\\Blackfriday_Intermedio.csproj|c:\\users\\alumno\\documents\\github\\desarrollojjgl\\tema 3 -wpf\\pr\u00E1ctica 8 wpf jjgl\\blackfriday_intermedio\\blackfriday_intermedio\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9AAD14AD-84EE-4B9C-9A42-7B95FD4A3F63}|Blackfriday_Intermedio\\Blackfriday_Intermedio.csproj|solutionrelative:blackfriday_intermedio\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAD14AD-84EE-4B9C-9A42-7B95FD4A3F63}|Blackfriday_Intermedio\\Blackfriday_Intermedio.csproj|c:\\users\\alumno\\documents\\github\\desarrollojjgl\\tema 3 -wpf\\pr\u00E1ctica 8 wpf jjgl\\blackfriday_intermedio\\blackfriday_intermedio\\ventanaresultado.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AAD14AD-84EE-4B9C-9A42-7B95FD4A3F63}|Blackfriday_Intermedio\\Blackfriday_Intermedio.csproj|solutionrelative:blackfriday_intermedio\\ventanaresultado.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AAD14AD-84EE-4B9C-9A42-7B95FD4A3F63}|Blackfriday_Intermedio\\Blackfriday_Intermedio.csproj|c:\\users\\alumno\\documents\\github\\desarrollojjgl\\tema 3 -wpf\\pr\u00E1ctica 8 wpf jjgl\\blackfriday_intermedio\\blackfriday_intermedio\\ventanaresultado.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9AAD14AD-84EE-4B9C-9A42-7B95FD4A3F63}|Blackfriday_Intermedio\\Blackfriday_Intermedio.csproj|solutionrelative:blackfriday_intermedio\\ventanaresultado.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VentanaResultado.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\Blackfriday_Intermedio\\Blackfriday_Intermedio\\VentanaResultado.xaml.cs",
+              "RelativeDocumentMoniker": "Blackfriday_Intermedio\\VentanaResultado.xaml.cs",
+              "ToolTip": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\Blackfriday_Intermedio\\Blackfriday_Intermedio\\VentanaResultado.xaml.cs",
+              "RelativeToolTip": "Blackfriday_Intermedio\\VentanaResultado.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T08:42:05.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VentanaResultado.xaml",
+              "DocumentMoniker": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\Blackfriday_Intermedio\\Blackfriday_Intermedio\\VentanaResultado.xaml",
+              "RelativeDocumentMoniker": "Blackfriday_Intermedio\\VentanaResultado.xaml",
+              "ToolTip": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\Blackfriday_Intermedio\\Blackfriday_Intermedio\\VentanaResultado.xaml",
+              "RelativeToolTip": "Blackfriday_Intermedio\\VentanaResultado.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T08:40:35.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\Blackfriday_Intermedio\\Blackfriday_Intermedio\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Blackfriday_Intermedio\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\Blackfriday_Intermedio\\Blackfriday_Intermedio\\MainWindow.xaml",
+              "RelativeToolTip": "Blackfriday_Intermedio\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-17T08:34:39.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\Blackfriday_Intermedio\\Blackfriday_Intermedio\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Blackfriday_Intermedio\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\Blackfriday_Intermedio\\Blackfriday_Intermedio\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Blackfriday_Intermedio\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAywBwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T08:34:38.946Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using Microsoft.Win32;
+using System.IO;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +21,29 @@ namespace WpfApp3
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void NewCommand_CanExecute(object sender, CanExecuteRoutedEventArgs e)
+        {
+            // Para que 'Nuevo' esté disponible
+            e.CanExecute = true;
+        }
+        private void NewCommand_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            txtEditor.Text = "";
+        }
+
+
+        private void Guardar_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+
+            saveFileDialog.Filter = "Documento de texto (*.txt)|*.txt|Todos los archivos (*.*)|*.*";
+
+            if (saveFileDialog.ShowDialog() == true)
+            {
+                File.WriteAllText(saveFileDialog.FileName, txtEditor.Text);
+            }
         }
     }
 }

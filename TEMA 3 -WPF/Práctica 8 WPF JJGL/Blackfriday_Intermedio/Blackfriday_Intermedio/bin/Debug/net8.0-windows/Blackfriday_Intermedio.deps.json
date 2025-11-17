@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Blackfriday_Intermedio/1.0.0": {
+        "runtime": {
+          "Blackfriday_Intermedio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Blackfriday_Intermedio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
