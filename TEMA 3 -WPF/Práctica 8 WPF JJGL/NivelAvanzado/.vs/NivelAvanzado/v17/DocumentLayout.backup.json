@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\NivelAvanzado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1BA5DE3-64AA-4F10-97D9-8541CDD3E5DA}|NivelAvanzado\\NivelAvanzado.csproj|c:\\users\\alumno\\documents\\github\\desarrollojjgl\\tema 3 -wpf\\pr\u00E1ctica 8 wpf jjgl\\nivelavanzado\\nivelavanzado\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1BA5DE3-64AA-4F10-97D9-8541CDD3E5DA}|NivelAvanzado\\NivelAvanzado.csproj|solutionrelative:nivelavanzado\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1BA5DE3-64AA-4F10-97D9-8541CDD3E5DA}|NivelAvanzado\\NivelAvanzado.csproj|c:\\users\\alumno\\documents\\github\\desarrollojjgl\\tema 3 -wpf\\pr\u00E1ctica 8 wpf jjgl\\nivelavanzado\\nivelavanzado\\ventana2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1BA5DE3-64AA-4F10-97D9-8541CDD3E5DA}|NivelAvanzado\\NivelAvanzado.csproj|solutionrelative:nivelavanzado\\ventana2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1BA5DE3-64AA-4F10-97D9-8541CDD3E5DA}|NivelAvanzado\\NivelAvanzado.csproj|c:\\users\\alumno\\documents\\github\\desarrollojjgl\\tema 3 -wpf\\pr\u00E1ctica 8 wpf jjgl\\nivelavanzado\\nivelavanzado\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1BA5DE3-64AA-4F10-97D9-8541CDD3E5DA}|NivelAvanzado\\NivelAvanzado.csproj|solutionrelative:nivelavanzado\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1BA5DE3-64AA-4F10-97D9-8541CDD3E5DA}|NivelAvanzado\\NivelAvanzado.csproj|c:\\users\\alumno\\documents\\github\\desarrollojjgl\\tema 3 -wpf\\pr\u00E1ctica 8 wpf jjgl\\nivelavanzado\\nivelavanzado\\ventana2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1BA5DE3-64AA-4F10-97D9-8541CDD3E5DA}|NivelAvanzado\\NivelAvanzado.csproj|solutionrelative:nivelavanzado\\ventana2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ventana2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\NivelAvanzado\\NivelAvanzado\\Ventana2.xaml.cs",
+              "RelativeDocumentMoniker": "NivelAvanzado\\Ventana2.xaml.cs",
+              "ToolTip": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\NivelAvanzado\\NivelAvanzado\\Ventana2.xaml.cs",
+              "RelativeToolTip": "NivelAvanzado\\Ventana2.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvyIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T13:00:21.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ventana2.xaml",
+              "DocumentMoniker": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\NivelAvanzado\\NivelAvanzado\\Ventana2.xaml",
+              "RelativeDocumentMoniker": "NivelAvanzado\\Ventana2.xaml",
+              "ToolTip": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\NivelAvanzado\\NivelAvanzado\\Ventana2.xaml",
+              "RelativeToolTip": "NivelAvanzado\\Ventana2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-18T12:45:12.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\NivelAvanzado\\NivelAvanzado\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "NivelAvanzado\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\NivelAvanzado\\NivelAvanzado\\MainWindow.xaml",
+              "RelativeToolTip": "NivelAvanzado\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-18T12:38:47.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\NivelAvanzado\\NivelAvanzado\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "NivelAvanzado\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\alumno\\Documents\\GitHub\\DesarrolloJJGL\\TEMA 3 -WPF\\Pr\u00E1ctica 8 WPF JJGL\\NivelAvanzado\\NivelAvanzado\\MainWindow.xaml.cs",
+              "RelativeToolTip": "NivelAvanzado\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T12:38:44.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
