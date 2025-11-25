@@ -5,14 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Agenda" Height="450" Width="800">
     <StackPanel>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button Margin="0, 20, 20, 0" Height="30">Agregar nueva tarea</Button>
-            <Button Margin="0, 20, 20, 0" Height="30">Mostrar siguiente</Button>
-            <Button Margin="0, 20, 20, 0" Height="30">Realizar siguiente</Button>
-            <Button Margin="0, 20, 20, 0" Height="30">Mostrar nº de tareas</Button>
-            <Button Margin="0, 20, 20, 0" Height="30">Mostrar pendientes</Button>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0, 20, 0, 0">
+            <Label FontWeight="Bold">Nueva Tarea:</Label>
+            <TextBox x:Name="txtNuevaTarea" Width="300" Height="25" Margin="10,0,0,0"/>
         </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0, 20, 0, 0">
+            <Button x:Name="btnAgregar" Margin="0, 0, 20, 0" Height="30" Padding="10,0" Click="btnAgregar_Click">Agregar nueva tarea</Button>
+            <Button x:Name="btnMostrar" Margin="0, 0, 20, 0" Height="30" Padding="10,0" Click="btnMostrar_Click">Mostrar siguiente</Button>
+            <Button x:Name="btnNext" Margin="0, 0, 20, 0" Height="30" Padding="10,0" Click="btnNext_Click">Realizar siguiente</Button>
+            <Button x:Name="btnNTareas" Margin="0, 0, 20, 0" Height="30" Padding="10,0" Click="btnNTareas_Click">Mostrar nº de tareas</Button>
+            <Button x:Name="btnMostrarPendientes" Margin="0, 0, 20, 0" Height="30" Padding="10,0" Click="btnMostrarPendientes_Click">Mostrar pendientes</Button>
+        </StackPanel>
+
+        <TextBox x:Name="txtListado" HorizontalAlignment="Center" Width="700" Height="250" Margin="0, 20, 0, 0" 
+                 AcceptsReturn="True" VerticalScrollBarVisibility="Auto" IsReadOnly="True"></TextBox>
     </StackPanel>
 </Window>

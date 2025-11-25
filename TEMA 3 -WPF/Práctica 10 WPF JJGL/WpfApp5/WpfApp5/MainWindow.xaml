@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Margin="0, 20, 80, 0" FontWeight="Bold" FontSize="18">ADMINISTRACIÓN</TextBlock>
+            <TextBlock Margin="80, 20, 0, 0" FontWeight="Bold" FontSize="18">EMPLEADOS</TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Width="170" Margin="0, 20, 60, 0" Click="btnAlta">Alta empleado</Button>
+            <Button Width="135" Margin="80, 20, 0, 0" Click="btnHoraExtrasInsertar">Insertar hora extra</Button>
+        </StackPanel>
+        <StackPanel>
+            <Button Width="170" Margin="0, 20, 270, 0" Click="btnTotalHorasExtras">Horas extras totales</Button>
+        </StackPanel>
+        <StackPanel>
+            <Button Width="170" Margin="0, 20, 270, 0" Click="btnInformeCompleto">Informe completo</Button>
+        </StackPanel>
+        <TextBox Height="200" Margin="20, 50, 20, 0"></TextBox>
+    </StackPanel>
+</Window>
