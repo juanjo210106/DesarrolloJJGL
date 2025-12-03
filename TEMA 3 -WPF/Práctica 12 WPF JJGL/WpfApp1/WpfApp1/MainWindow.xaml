@@ -7,8 +7,74 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TabControl TabStripPlacement="Bottom">
-            <TabItem Header=""></TabItem>
+        <TabControl TabStripPlacement="Left">
+            <!-- SECCIÓN 1 DATOS -->
+            <TabItem FontSize="14" FontWeight="Bold" IsSelected="True">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Margin="0, 0, 10, 0" Width="10" Source="/rojo.png"></Image>
+                        <TextBlock>Datos</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Margin="20" Grid.Row="0" Grid.Column="0" VerticalAlignment="Bottom">
+                        <Label>Valor 1</Label>
+                        <TextBox x:Name="txtValor1"></TextBox>
+                    </StackPanel>
+                    <StackPanel  Margin="20" Grid.Row="1" Grid.Column="0" >
+                        <Label>Valor 2</Label>
+                        <TextBox x:Name="txtValor2"></TextBox>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            
+            <!-- SECCIÓN 2 RESULTADO -->
+            <TabItem FontSize="14" FontWeight="Bold" MouseDoubleClick="TabItem_MouseDoubleClick">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Margin="0, 0, 10, 0" Width="10" Source="/verde.png"></Image>
+                        <TextBlock>Resul</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <StackPanel Margin="12">
+                    <TextBox Width="550" Height="300" x:Name="txtResultado"></TextBox>
+                </StackPanel>
+            </TabItem>
+            
+            
+            <!-- SECCIÓN 3 IMÁGENES -->
+            <TabItem FontSize="14" FontWeight="Bold">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Margin="0, 0, 10, 0" Width="10" Source="/rojo.png"></Image>
+                        <TextBlock>Imág</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.ColumnSpan="2" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="20" FontSize="20" HorizontalAlignment="Center" FontWeight="Bold">Imágenes de Ejemplo:</TextBlock>
+                    <Image Grid.Row="1" Grid.Column="0" Source="/rojo.png" Margin="26"></Image>
+                    <Image Grid.Row="1" Grid.Column="1" Source="/verde.png" Margin="26"></Image>
+                </Grid>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>
