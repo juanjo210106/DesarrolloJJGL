@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="485" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+
+        <!-- TABCONTROL -->
+        <TabControl x:Name="Tabs" Margin="10">
+
+            <TabItem Header="General">
+                <Grid Background="AliceBlue"></Grid>
+            </TabItem>
+
+            <TabItem Header="Seguridad">
+                <Grid Background="BlanchedAlmond"></Grid>
+            </TabItem>
+
+            <TabItem Header="Detalles">
+                <Grid Background="DarkOliveGreen"></Grid>
+            </TabItem>
+
+        </TabControl>
+
+        <!-- BOTONES INFERIORES -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="0">
+
+            <Button Content="Anterior" Width="80" Margin="5"
+                    Click="Anterior_Click"/>
+
+            <Button Content="Siguiente" Width="80" Margin="5"
+                    Click="Siguiente_Click"/>
+
+            <Button Content="Seleccionado" Width="100" Margin="5"
+                    Click="Seleccionado_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

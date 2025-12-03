@@ -5,8 +5,77 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="450" Width="450">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="20" Background="#F2F2F2">
+
+            <!-- SECCIÓN 1: DATOS PERSONALES -->
+            <Border BorderBrush="#4A90E2" BorderThickness="2" CornerRadius="10" Padding="15" Margin="0 0 0 20">
+                <StackPanel>
+                    <TextBlock Text="Datos Personales" FontSize="20" FontWeight="Bold" Margin="0 0 0 10"/>
+
+                    <TextBlock Text="Nombre:"/>
+                    <TextBox Width="250" Margin="0 5 0 10"/>
+
+                    <TextBlock Text="Fecha de nacimiento:"/>
+                    <DatePicker Width="250" Margin="0 5 0 10"/>
+
+                    <TextBlock Text="Estado civil:"/>
+                    <ComboBox Width="200" Margin="0 5 0 10">
+                        <ComboBoxItem Content="Soltero(a)"/>
+                        <ComboBoxItem Content="Casado(a)"/>
+                        <ComboBoxItem Content="Divorciado(a)"/>
+                        <ComboBoxItem Content="Viudo(a)"/>
+                    </ComboBox>
+
+                    <TextBlock Text="Género:" Margin="0 0 0 5"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                        <RadioButton Content="Masculino" Margin="0 0 10 0"/>
+                        <RadioButton Content="Femenino" Margin="0 0 10 0"/>
+                        <RadioButton Content="Otro"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <!-- SECCIÓN 2: DATOS LABORALES -->
+            <Border BorderBrush="#7ED321" BorderThickness="2" CornerRadius="10" Padding="15" Margin="0 0 0 20">
+                <StackPanel>
+                    <TextBlock Text="Datos Laborales" FontSize="20" FontWeight="Bold" Margin="0 0 0 10"/>
+
+                    <TextBlock Text="Profesión:"/>
+                    <TextBox Width="250" Margin="0 5 0 10"/>
+
+                    <TextBlock Text="Años de experiencia:"/>
+                    <TextBox Width="100" Margin="0 5 0 10"/>
+
+                    <TextBlock Text="Disponibilidad:"/>
+                    <StackPanel Orientation="Vertical" Margin="0 5 0 10">
+                        <CheckBox Content="Tiempo completo"/>
+                        <CheckBox Content="Medio tiempo"/>
+                        <CheckBox Content="Remoto"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <!-- SECCIÓN 3: OTRA SECCIÓN (ELEGIDA POR MI) -->
+            <Border BorderBrush="#D0021B" BorderThickness="2" CornerRadius="10" Padding="15">
+                <StackPanel>
+                    <TextBlock Text="Información de Contacto" FontSize="20" FontWeight="Bold" Margin="0 0 0 10"/>
+
+                    <TextBlock Text="Correo electrónico:"/>
+                    <TextBox Width="300" Margin="0 5 0 10"/>
+
+                    <TextBlock Text="Teléfono:"/>
+                    <TextBox Width="200" Margin="0 5 0 10"/>
+
+                    <TextBlock Text="Preferencia de contacto:"/>
+                    <StackPanel Orientation="Horizontal" Margin="0 5 0 10">
+                        <RadioButton Content="Email" Margin="0 0 15 0"/>
+                        <RadioButton Content="Teléfono"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+    </ScrollViewer>
 </Window>
