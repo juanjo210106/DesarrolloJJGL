@@ -39,5 +39,13 @@ namespace WpfApp1
             Ventana4 ventana4 = new Ventana4();
             ventana4.Show();
         }
+
+        
+
+        private void MenuItem_Click3(object sender, RoutedEventArgs e)
+        {
+            Ventana5 ventana5 = new Ventana5();
+            ventana5.Show();
+        }
     }
 }

@@ -22,7 +22,7 @@
                 <MenuItem Click="MenuItem_Click" Header="_Nuevo Participante"></MenuItem>
                 <MenuItem Click="MenuItem_Click_1" Header="_Modificar Actividad"></MenuItem>
                 <MenuItem Click="MenuItem_Click_2" Header="_Eliminar Participante"></MenuItem>
-                <MenuItem Header="_Informe Completo"></MenuItem>
+                <MenuItem Click="MenuItem_Click3" Header="_Informe Completo"></MenuItem>
             </MenuItem>
             <MenuItem Header="Operaciones">
                 <MenuItem Header="_Guardar Informe"></MenuItem>
