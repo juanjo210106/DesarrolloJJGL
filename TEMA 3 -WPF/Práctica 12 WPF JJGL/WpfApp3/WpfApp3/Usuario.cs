@@ -13,6 +13,8 @@ namespace WpfApp3
         public string apellido { get; set; }
         public string email { get; set; }
 
+
+
         public Usuario(int id, string nombre, string apellido, string email)
         {
             this.id = id;
