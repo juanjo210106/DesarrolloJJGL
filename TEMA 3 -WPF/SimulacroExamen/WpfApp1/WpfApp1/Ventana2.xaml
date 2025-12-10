@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApp1.Ventana2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Ventana2" Height="450" Width="800">
+    <Grid Background="DarkCyan">
+        <DockPanel HorizontalAlignment="Center">
+            <TextBlock FontSize="24" FontWeight="ExtraBlack" DockPanel.Dock="Top" Foreground="White">NUEVO PARTICIPANTE</TextBlock>
+
+            <StackPanel Orientation="Vertical" Margin="0, 40, 0, 0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal" Margin="0, 0, 0, 10" HorizontalAlignment="Center">
+                    <Label Foreground="White" Content="_Nombre:" Target="{Binding ElementName=txtNombre}"></Label>
+                    <TextBox x:Name="txtNombre" Width="254" Margin="10, 0, 0, 0" Height="20"></TextBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0, 0, 0, 10" HorizontalAlignment="Center">
+                    <Label Foreground="White" Content="_DNI:" Target="{Binding ElementName=txtDni}"></Label>
+                    <TextBox x:Name="txtDni" Width="257" Margin="10, 0, 0, 0" Height="20"></TextBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0, 0, 0, 10" HorizontalAlignment="Center">
+                    <Label Foreground="White" Content="_Edad:" Target="{Binding ElementName=txtEdad}"></Label>
+                    <TextBox x:Name="txtEdad" Width="255" Margin="10, 0, 0, 0" Height="20"></TextBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" Margin="0, 0, 0, 10" HorizontalAlignment="Center">
+                    <TextBlock Foreground="White">Selecciona una actividad:</TextBlock>
+                    <ComboBox Width="300">
+                        <ComboBoxItem Name="cxPadel">Pádel</ComboBoxItem>
+                        <ComboBoxItem Name="cxFutbol">Futbol</ComboBoxItem>
+                        <ComboBoxItem Name="cxBaloncesto">Baloncesto</ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+                <Button Background="Black" Foreground="White" FontWeight="Bold" Click="Button_Click">Añadir</Button>
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</Window>

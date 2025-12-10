@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="LightCyan">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Menu Grid.ColumnSpan="2" Grid.Column="0" Background="DarkCyan" Foreground="White" FontWeight="DemiBold" FontFamily="Malgun Gothic">
+            <MenuItem Header="Participantes">
+                <MenuItem Click="MenuItem_Click" Header="_Nuevo Participante"></MenuItem>
+                <MenuItem Click="MenuItem_Click_1" Header="_Modificar Actividad"></MenuItem>
+                <MenuItem Click="MenuItem_Click_2" Header="_Eliminar Participante"></MenuItem>
+                <MenuItem Header="_Informe Completo"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Operaciones">
+                <MenuItem Header="_Guardar Informe"></MenuItem>
+                <MenuItem Header="_Estadísticas"></MenuItem>
+            </MenuItem>
+        </Menu>
+
+        
+
+        <Image Source="/actividadesDeportivas.jpg" VerticalAlignment="Center" Grid.Column="0" Grid.Row="1" Width="280"/>
+
+        <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" >
+            <TextBlock FontWeight="Bold" FontSize="18" TextWrapping="Wrap" TextAlignment="Center" FontFamily="Noto Sans Georgian Bold">¡Bienvenido a la gestión de actividades y participantes!</TextBlock>
+            <TextBlock FontSize="16" TextWrapping="Wrap" TextAlignment="Center" Margin="15" FontFamily="Calibri Light">Gestiona tu club, define la estrategia perfecta y lleva a tu equipo a lo más alto. Tu legado comienza aquí.</TextBlock>
+        </StackPanel>
+
+        <StatusBar Grid.Row="2" Grid.ColumnSpan="2">
+            <StatusBarItem Background="DarkCyan" Foreground="White">| Bienvenido a la aplicación de gestión</StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
