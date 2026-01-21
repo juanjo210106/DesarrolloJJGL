@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioFlexLayout.MainPage">
+
+    <FlexLayout Direction="Column">
+
+        <Label Text="HEADER" 
+                   BackgroundColor="Cyan"
+                   HeightRequest="50"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   TextColor="Black"/>
+
+        <FlexLayout Direction="Row" 
+                        FlexLayout.Grow="1">
+
+            <BoxView Color="Blue" 
+                         WidthRequest="50" />
+
+            <Label Text="CONTENT"
+                       BackgroundColor="Gray"
+                       TextColor="Black"
+                       VerticalTextAlignment="Start"
+                       FlexLayout.Grow="1"/>
+
+            <BoxView Color="Green" 
+                         WidthRequest="50" />
+
+        </FlexLayout>
+
+        <Label Text="FOOTER" 
+                   BackgroundColor="Pink"
+                   HeightRequest="50"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   TextColor="Black"/>
+
+    </FlexLayout>
+</ContentPage>
