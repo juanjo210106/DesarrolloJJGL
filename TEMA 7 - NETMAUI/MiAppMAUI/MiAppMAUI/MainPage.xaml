@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioFlexLayout.MainPage"
+             BackgroundColor="#F0F0F0">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="15" Padding="15">
+
+            <Frame BackgroundColor="#ABD5FD" Padding="10" CornerRadius="10" BorderColor="#6F84A9">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text="💡" FontSize="24" VerticalOptions="Center"/>
+
+                    <Label Text="Mi App MAUI" 
+                           FontSize="20" 
+                           FontAttributes="Bold" 
+                           VerticalOptions="Center" 
+                           HorizontalOptions="StartAnd/>
+
+                    <Label Text="⚙️" FontSize="24" VerticalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+
+            <Frame BackgroundColor="#FFFACD" Padding="15" CornerRadius="10">
+                <StackLayout Orientation="Horizontal" Spacing="15">
+
+                    <Image Source="dotnet_bot.png" 
+                           WidthRequest="60" 
+                           HeightRequest="60"
+                           BackgroundColor="White"/>
+
+                    <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                        <Label Text="Juan Pérez" FontAttributes="Bold" FontSize="18"/>
+                        <Label Text="Desarrollador MAUI" TextColor="Gray" FontSize="14"/>
+                        <Label Text="Apasionado por el desarrollo móvil!" FontSize="12" TextColor="#666"/>
+                    </StackLayout>
+
+                </StackLayout>
+            </Frame>
+
+
+            <Frame Padding="10" CornerRadius="10">
+                <VerticalStackLayout>
+                    <Label Text="Grid" FontAttributes="Bold" Margin="0,0,0,10"/>
+
+                    <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*, *" ColumnSpacing="10" RowSpacing="10">
+
+                        <Button Grid.Row="0" Grid.Column="0" 
+                                Text="⭐ Favoritos" 
+                                BackgroundColor="#FEAE5D" TextColor="White"
+                                BorderColor="Orange"
+                                FontAttributes="Bold"
+                                FontSize="18"/>
+
+                        <Button Grid.Row="0" Grid.Column="1" 
+                                Text="🖼️ Galería" 
+                                BackgroundColor="#95D28E" 
+                                TextColor="Black"
+                                BorderColor="Green"/>
+
+                        <Button Grid.Row="1" Grid.Column="0" 
+                                Text="❤️ Like" 
+                                BackgroundColor="Salmon" TextColor="White"/>
+
+                        <Button Grid.Row="1" Grid.Column="1" 
+                                Text="⚙️ Configurar" 
+                                BackgroundColor="MediumPurple" TextColor="White"/>
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
