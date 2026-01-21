@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiPrimeraApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+93e827c033734de2871ac435aa57f69cd6c9066f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiPrimeraApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiPrimeraApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alumno\\Desktop\\-- GitHub --\\MiPrimeraApp\\MiPrimeraApp\\MiPrimeraApp.csproj": {}
+    "C:\\Users\\alumno\\Desktop\\-- GitHub --\\DesarrolloJJGL\\TEMA 7 - NETMAUI\\MiPrimeraApp\\MiPrimeraApp\\MiPrimeraApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alumno\\Desktop\\-- GitHub --\\MiPrimeraApp\\MiPrimeraApp\\MiPrimeraApp.csproj": {
+    "C:\\Users\\alumno\\Desktop\\-- GitHub --\\DesarrolloJJGL\\TEMA 7 - NETMAUI\\MiPrimeraApp\\MiPrimeraApp\\MiPrimeraApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alumno\\Desktop\\-- GitHub --\\MiPrimeraApp\\MiPrimeraApp\\MiPrimeraApp.csproj",
+        "projectUniqueName": "C:\\Users\\alumno\\Desktop\\-- GitHub --\\DesarrolloJJGL\\TEMA 7 - NETMAUI\\MiPrimeraApp\\MiPrimeraApp\\MiPrimeraApp.csproj",
         "projectName": "MiPrimeraApp",
-        "projectPath": "C:\\Users\\alumno\\Desktop\\-- GitHub --\\MiPrimeraApp\\MiPrimeraApp\\MiPrimeraApp.csproj",
+        "projectPath": "C:\\Users\\alumno\\Desktop\\-- GitHub --\\DesarrolloJJGL\\TEMA 7 - NETMAUI\\MiPrimeraApp\\MiPrimeraApp\\MiPrimeraApp.csproj",
         "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alumno\\Desktop\\-- GitHub --\\MiPrimeraApp\\MiPrimeraApp\\obj\\",
+        "outputPath": "C:\\Users\\alumno\\Desktop\\-- GitHub --\\DesarrolloJJGL\\TEMA 7 - NETMAUI\\MiPrimeraApp\\MiPrimeraApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
