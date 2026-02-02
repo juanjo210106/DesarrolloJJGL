@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ProyectosWPF\\Ejercicio3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93F2F8C1-8ADF-4A55-942C-351E243B19C0}|Ejercicio3\\Ejercicio3.csproj|d:\\proyectoswpf\\ejercicio3\\ejercicio3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F2F8C1-8ADF-4A55-942C-351E243B19C0}|Ejercicio3\\Ejercicio3.csproj|solutionrelative:ejercicio3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F2F8C1-8ADF-4A55-942C-351E243B19C0}|Ejercicio3\\Ejercicio3.csproj|d:\\proyectoswpf\\ejercicio3\\ejercicio3\\ajustespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{93F2F8C1-8ADF-4A55-942C-351E243B19C0}|Ejercicio3\\Ejercicio3.csproj|solutionrelative:ejercicio3\\ajustespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\ProyectosWPF\\Ejercicio3\\Ejercicio3\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Ejercicio3\\App.xaml.cs",
+              "ToolTip": "D:\\ProyectosWPF\\Ejercicio3\\Ejercicio3\\App.xaml.cs",
+              "RelativeToolTip": "Ejercicio3\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T11:51:42.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AjustesPage.xaml",
+              "DocumentMoniker": "D:\\ProyectosWPF\\Ejercicio3\\Ejercicio3\\AjustesPage.xaml",
+              "RelativeDocumentMoniker": "Ejercicio3\\AjustesPage.xaml",
+              "ToolTip": "D:\\ProyectosWPF\\Ejercicio3\\Ejercicio3\\AjustesPage.xaml",
+              "RelativeToolTip": "Ejercicio3\\AjustesPage.xaml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwFAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T11:49:57.789Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
