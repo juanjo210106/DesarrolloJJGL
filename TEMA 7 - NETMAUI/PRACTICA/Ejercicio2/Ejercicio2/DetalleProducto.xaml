@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2.DetalleProducto"
+             Title="Ficha de Producto"
+             BackgroundColor="#F9F9F9">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30">
+
+            <Frame CornerRadius="20"
+                   HeightRequest="250"
+                   HorizontalOptions="Fill"
+                   Padding="0"
+                   BorderColor="Transparent">
+                <Grid BackgroundColor="White">
+                    <Image Source="dotnet_bot.png" 
+                           Margin="20"/>
+                </Grid>
+            </Frame>
+
+            <VerticalStackLayout Spacing="10">
+                <Label Text="Robot .NET MAUI" 
+                       FontSize="26"
+                       FontAttributes="Bold"
+                       TextColor="#333333"/>
+
+                <Label Text="59.99 €" 
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       TextColor="#00A3AD"/>
+            </VerticalStackLayout>
+
+            <Label Text="Este robot edición especial es el compañero perfecto para tus sesiones de programación. Fabricado con poliéster resistente y diseñado para inspirar tu código." 
+                   FontSize="16"
+                   TextColor="#666666"
+                   LineHeight="1.2"/>
+
+            <BoxView HeightRequest="1" Color="#E0E0E0"/>
+
+            <HorizontalStackLayout Spacing="20" VerticalOptions="Center">
+                <Label Text="Cantidad:" 
+                       VerticalOptions="Center" 
+                       FontSize="18"
+                       TextColor="#333333"
+                       FontAttributes="Bold"/>
+
+                <Stepper HorizontalOptions="Start"/>
+
+                <Frame Padding="10,5" CornerRadius="10" BackgroundColor="#E0F7FA" BorderColor="Transparent">
+                    <Label Text="1" 
+                           TextColor="#00A3AD"
+                           FontAttributes="Bold"
+                           FontSize="18"/>
+                </Frame>
+            </HorizontalStackLayout>
+
+            <Button Text="Añadir al carrito" 
+                    BackgroundColor="#00A3AD"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="25"
+                    HeightRequest="55"
+                    Margin="0,20,0,0"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
