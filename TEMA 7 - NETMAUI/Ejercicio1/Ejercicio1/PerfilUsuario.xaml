@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1.PerfilUsuario"
+             Title="PerfilUsuario">
+    <ScrollView>
+        <VerticalStackLayout Spacing="15" Padding="20">
+
+            <Frame CornerRadius="75" 
+                   HeightRequest="150" 
+                   WidthRequest="150"
+                   HorizontalOptions="Center"
+                   Padding="0"
+                   IsClippedToBounds="True">
+                <Image Source="dotnet_bot.png" Aspect="AspectFill"/>
+            </Frame>
+
+            <Label Text="Usuario Ejemplo" 
+                   FontSize="22" 
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="usuario@email.com" 
+                   FontSize="16" 
+                   TextColor="Gray"
+                   HorizontalOptions="Center"/>
+
+            <Button Text="Editar Perfil" 
+                    BackgroundColor="Gray"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"/>
+
+            <TableView Intent="Settings">
+                <TableRoot>
+                    <TableSection Title="Opciones de Cuenta">
+
+                        <TextCell Text="Cambiar contraseña" 
+                                  Detail="Actualiza tu clave de acceso"/>
+
+                        <SwitchCell Text="Notificaciones" On="True"/>
+
+                        <TextCell Text="Cerrar sesión" 
+                                  TextColor="Red"/>
+
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

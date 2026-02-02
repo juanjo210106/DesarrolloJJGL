@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1.MainPage"
+             Title="Login"
+             BackgroundColor="#F5F3F0">
+
+    <ScrollView HorizontalOptions="Center">
+        <VerticalStackLayout Spacing="20" 
+                             Padding="30" 
+                             VerticalOptions="Center" 
+                             HorizontalOptions="Center">
+
+
+            <Image Source="dotnet_bot.png" 
+                   HeightRequest="190" 
+                   WidthRequest="290"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Inicio de Sesión" 
+                   FontSize="Title" 
+                   HorizontalOptions="Start" 
+                   FontAttributes="Bold"
+                   TextColor="#375357"/>
+
+            <Label Margin="0, 20, 0, -20" FontAttributes="Bold" TextColor="#04808a">Nombre de Usuario:</Label>
+            <Entry Placeholder="Nombre de usuario" 
+                   PlaceholderColor="Gray"
+                   
+                   Margin="0, 0, 0, -10"/>
+
+            <Label Margin="0, 20, 0, -20" FontAttributes="Bold" TextColor="#04808a">Contraseña:</Label>
+            <Entry Placeholder="Contraseña" 
+                   IsPassword="True"
+                   PlaceholderColor="Gray"/>
+
+            <Button Text="Login" 
+                    Clicked="OnLoginClicked"
+                    HorizontalOptions="Fill"
+                    Background="#02B2BF"
+                    FontAttributes="Bold"/>
+
+            <Label Text="¿Has olvidado tu contraseña?" 
+                   TextColor="#375357"
+                   HorizontalOptions="Center"
+                   TextDecorations="Underline"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
